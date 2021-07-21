@@ -11,13 +11,14 @@
       rel="stylesheet"
     />
     <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>HOUSE</title>
   </head>
 
   <body>
-    <nav>
+    <nav class= "animate__animated animate__fadeInDown animate__slow">
       <div class="logo">
-        <a class="logo-decoration" href="index.html"><h3 class="Texto-Logo">INMOBILIARIA</h3></a>
+        <a class="logo-decoration" href="index.html"><h3 class="text-logo">INMOBILIARIA</h3></a>
       </div>
       <ul class="nav-links">
         <li><a href="#">PROPIEDADES</a></li>
@@ -27,23 +28,32 @@
       </ul>
     </nav>
 
-    <main>
+    <main class= "animate__animated animate__fadeInRight animate__slow">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-7 tittle-for-house">
+          <div class="col-12 col-xl-7 tittle-for-house">
             Excelente casa 6 amb. con jardín trasero |
             <div class="especification-for-house">Venta o Alquiler</div>
           </div>
-          <div class="col-5 price-for-house">
+          <div class="col-12 col-xl-5 price-for-house">
             Precio: USD$1.111.111 /<br />
             $25.000 mensual
           </div>
         </div>
 
         <div class="row">
-          <div class="col-7 p-0 ps-3">
+          <div class="col-12 ps-0 col-xl-7 p-0 ps-3">
             <img class="hero-image" src="Imagenes/Casa11.jpeg" />
-            <div class="carrousel" style="display: flex; flex-direction: row">
+            <div
+              class="carrousel"
+              style="
+                display: flex;
+                flex-direction: row;
+                margin: 0;
+                justify-content: center;
+                align-content: center;
+              "
+            >
               <div class=""><img class="carrousel-images" src="Imagenes/Interior1.jpg" /></div>
               <div class=""><img class="carrousel-images" src="Imagenes/Interior3.jpg" /></div>
               <div class=""><img class="carrousel-images" src="Imagenes/Interior2.jpg" /></div>
@@ -51,7 +61,7 @@
             </div>
           </div>
 
-          <div class="col-5 p-0 info">
+          <div class="col 12 col-xl-5 p-0 info">
             <div class="basic-info">Información Básica</div>
             <div class="row especific-data">
               <div class="col-6">
@@ -108,7 +118,7 @@
                   • Seguridad<br />
                   • Apto mascotas<br />
                   • Quincho<br />
-                  • Aire Acondicionado<br />
+                  • Aire Ac.<br />
                 </div>
               </div>
             </div>
@@ -123,7 +133,7 @@
       <div class="container-fluid">
         <div class="row p-0">
           <div class="tittle-contact">CONTACTO</div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <form class="contact-form">
               <div class="my-3 contact-form-group">
                 <label for="name" class="contact-form-label form-label">Nombre:</label>
@@ -172,7 +182,7 @@
               />
             </form>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="data-for-contact">
               <br />SIEMPRE PODES COMUNICARTE CON ALGUNO DE NUESTROS
               <div class="light-color">ASESORES</div>
@@ -191,25 +201,25 @@
         </div>
       </div>
     </main>
-    <footer class="container-fluid m-0 mt-5">
+    <footer class="container-fluid m-0 animate__animated animate__fadeIn animate__slow">
       <div class="row">
-        <div class="col-6">
-          <div class="LogoInmobiliaria">INMOBILIARIA</div>
-          <div class="DatosdeContacto">
+        <div class="col-12 col-md-6">
+          <div class="logo-inmb">INMOBILIARIA</div>
+          <div class="contact-data">
             CONTACTO: #1111111-11111 / 1111333333333<br />Av. Blablabla 754<br />info@inmobiliaria.com.ar
             <br />
           </div>
-          <div class="Disclaimer">
+          <div class="disclaimer">
             Todas las medidas enunciadas son meramente orientativas, las medidas exactas serán las que se
             expresen en el respectivo título de propiedad de cada inmueble.<br />Todas las fotos, imagenes y
             videos son meramente ilustrativos y no contractuales. Los precios enunciados son meramente
             orientativos y no contractuales..
           </div>
         </div>
-        <div class="col-3">
-          <div class="Medio">
+        <div class="col-12 col-md-3">
+          <div class="middle-selector">
             ¿Qué estás buscando?
-            <ul class="Medio-links">
+            <ul class="middle-links">
               <li><a href="#">Terrenos</a></li>
               <li><a href="#">Departamentos</a></li>
               <li><a href="#">Casas</a></li>
@@ -219,14 +229,14 @@
           </div>
         </div>
 
-        <div class="col-3">
-          <div class="Follow">
-            Seguinos en <img class="RedesSociales" src="Imagenes/Redes2.svg" alt="RedesSociales" />
+        <div class="col-12 col-md-3">
+          <div class="follow-text">
+            Seguinos en <img class="socials-net" src="Imagenes/Redes2.svg" alt="RedesSociales" />
           </div>
         </div>
       </div>
-      <hr class="LineaDivisoria" />
-      <div class="Copyright">INMOBILIARIA PROPIEDADES 2021</div>
+      <hr class="div-line" />
+      <div class="copyright">INMOBILIARIA PROPIEDADES 2021</div>
     </footer>
 
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
