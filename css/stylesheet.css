@@ -1,0 +1,437 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background: #fbfaff;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #e37fb9;
+}
+.nav-container a {
+  color: #fbfaff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+header .logo {
+  color: #04000a;
+  font-weight: bold;
+  font-size: 15px;
+}
+header ul {
+  display: flex;
+}
+header ul a {
+  display: block;
+  padding: 0 1em;
+  font-size: 12px;
+}
+
+.social-header,
+.hero-design,
+.footer-design {
+  display: none;
+}
+
+.hero {
+  background: #ffd7e4;
+  color: #04000a;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.meet {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  color: #d177e4;
+}
+.meet span {
+  margin-top: 1em;
+  margin-right: 0.5em;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #ffeff4;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d177e4;
+  letter-spacing: 0.23em;
+  font-size: 0.74em;
+}
+
+.featured-title {
+  color: #04000a;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: -0.4em;
+  display: block;
+}
+
+.featured-desc {
+  color: #463067;
+  margin-bottom: 3em;
+  font-size: 0.85em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.skills {
+  background: #d789e8;
+}
+
+.skills-container ul li {
+  background: #fbfaff;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.icon-container {
+  height: 100px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+.icon-container.one {
+  width: 50px;
+}
+.icon-container.two {
+  width: 50px;
+}
+.icon-container.three {
+  width: 50px;
+}
+
+.skill-title {
+  font-weight: bold;
+  color: #04000a;
+}
+
+.featured-desc {
+  margin-bottom: 2em;
+}
+
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+footer {
+  width: 100%;
+  background: #e37fb9;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  color: #04000a;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 1em;
+  padding-left: 4.5em;
+}
+
+.socials-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact li a {
+  font-weight: medium;
+  color: #fbfaff;
+  font-size: 12px;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 5px;
+  width: 5px;
+}
+
+.socials img {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+@media only screen and (min-width: 800px) {
+  .featured,
+.portfolio {
+    text-align: left;
+  }
+
+  .featured,
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .left,
+.portfolio-left {
+    display: grid;
+    place-content: center;
+  }
+
+  .right {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+
+  .skills {
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+
+  .portfolio {
+    padding-top: 7em;
+  }
+
+  .portfolio-container img {
+    margin-left: 2em;
+  }
+
+  .socials {
+    margin-left: 20em;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+  }
+
+  .nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .nav-container header {
+    background: #e37fb9;
+  }
+
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+
+  .social-header {
+    padding: 2em 4em 2em 0;
+  }
+
+  section {
+    padding: 4em;
+  }
+
+  .social-header {
+    display: block;
+  }
+  .social-header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 7em;
+    float: right;
+  }
+  .social-header ul img {
+    width: 20px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+  }
+  .hero .content {
+    background: #ffd7e4;
+    padding: 6em 8em 6em 4em;
+    text-align: left;
+  }
+  .hero .content h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+
+  .meet {
+    margin: unset;
+  }
+
+  .hero-design {
+    display: unset;
+    margin-left: -50%;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .portfolio img {
+    float: right;
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+
+  section {
+    padding: 10em 10em 4em 10em;
+  }
+
+  .hero .content {
+    padding: 6em 8em 6em 10em;
+  }
+
+  footer {
+    margin-top: 18em;
+    height: 160px;
+  }
+
+  .footer-design {
+    display: block;
+    position: relative;
+    top: -210px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+
+  .social-header {
+    padding: 2em 20em 2em 0;
+  }
+
+  section {
+    padding: 10em 20em 4em 20em;
+  }
+
+  .portfolio {
+    margin-top: 10em;
+  }
+
+  .hero .content {
+    padding: 9em 20em 6em 20em;
+  }
+
+  footer {
+    margin-top: 18em;
+    height: 160px;
+  }
+
+  .footer-logo {
+    font-size: 30px;
+  }
+
+  .contact li a {
+    margin-left: 7.5em;
+  }
+
+  .footer-design {
+    display: block;
+    position: relative;
+    top: -210px;
+  }
+
+  .socials img {
+    justify-content: center;
+    margin: 0;
+    padding-left: 1.5em;
+    padding-right: 0;
+    margin-left: 7em;
+    width: 30px;
+    height: 30px;
+  }
+
+  .circle {
+    animation: circleAnim 0.8s infinite alternate-reverse;
+  }
+
+  @-webkit-keyframes circleAnim {
+    from {
+      transform: translate(165px, 460px);
+      z-index: 5;
+    }
+    to {
+      transform: translate(165px, 500px);
+    }
+  }
+
+  @keyframes circleAnim {
+    from {
+      transform: translate(165px, 460px);
+      z-index: 5;
+    }
+    to {
+      transform: translate(165px, 500px);
+    }
+  }
+}/*# sourceMappingURL=stylesheet.css.map */

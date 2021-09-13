@@ -1,0 +1,24 @@
+font: Urbanist
+
+1º pantalla: LOGIN
+
+2º pantalla: HOME
+
+- Saludo
+- Qué te apetece? (buscador)
+- Iconos con posibilidades (pastelitos, cupcakes, donuts, tortas)
+- Recetas del día (por >puntuación)
+- Visitas de tus recetas subidas / Ver guardadas (menú burger)
+
+3º pantalla: 
+- Mis recetas
+- Recetas guardadas
+- Recetas likeadas
+
+4º pantalla:
+- Filtro del buscador (+/- puntuados, likeados, actuales, c/s tacc
+veganas, c/s azúcar, c/s manteca, diabéticas, )
+- Lista de recetas c/fotos
+- simbolo guardar/ corazon
+
+

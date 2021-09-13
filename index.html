@@ -1,287 +1,389 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ropa+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>HOMEPAGE</title>
+    <title>HOME</title>
   </head>
 
   <body>
-    <nav class="animate__animated animate__fadeInDown animate__slow">
-      <div class="logo">
-        <a class="logo-decoration" href="index.html"><h3 class="text-logo">INMOBILIARIA</h3></a>
+    <div class="nav-container">
+      <header>
+        <a href="index.html" class="logo">Leila E. Gonzalez</a>
+        <nav>
+          <ul>
+            <li><a href="#work">Trabajos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="social-header">
+        <ul>
+          <li>
+            <a href="https://github.com/CanicheAnsioso?tab=repositories"><img src="Imagenes/github.svg" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/laylaph.ok/"><img src="Imagenes/instagram.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Imagenes/whatsapp.svg" /></a>
+          </li>
+        </ul>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">PROPIEDADES</a></li>
-        <li><a href="#">TASACIONES</a></li>
-        <li><a href="#">NOSOTROS</a></li>
-        <li><a href="#">CONTACTO</a></li>
-      </ul>
-    </nav>
+    </div>
 
-    <main>
-      <div class="hero hero-img animate__animated animate__fadeInRight animate__slow">
-        <div class="hero-text">
-          <h2 class="main-text">
-            LA CASA DE TUS SUEÑOS ESTÁ CON
-            <div class="this-word">NOSOTROS</div>
-          </h2>
-          <h3 class="sub-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et
-            dolore magna aliqua
-          </h3>
+    <div class="hero">
+      <div class="content">
+        <h1 class="stagger1">
+          Me <span style="color: #9796ff">apasiona</span> dar <span style="color: #9796ff">vida</span> y
+          <span style="color: #9796ff">color</span> a tus <span style="color: #9796ff">ideas</span>
+        </h1>
+        <div class="meet stagger1">
+          <span>👇</span>
+          <p>Conoce a Leila E.</p>
         </div>
+        <svg class="scroll stagger1" width="35" height="75" viewBox="0 0 35 75">
+          <g id="Grupo_1" data-name="Grupo 1" transform="translate(-156 -452)">
+            <circle
+              class="circle"
+              id="Elipse_1"
+              data-name="Elipse 1"
+              cx="8.5"
+              cy="8.5"
+              r="8.5"
+              transform="translate(165 462)"
+              fill="#c06ad2"
+            />
+            <g
+              id="Rectángulo_1"
+              data-name="Rectángulo 1"
+              transform="translate(156 452)"
+              fill="none"
+              stroke="#d789e8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="6"
+            >
+              <rect width="35" height="75" rx="17.5" stroke="none" />
+              <rect x="3" y="3" width="29" height="69" rx="14.5" fill="none" />
+            </g>
+          </g>
+        </svg>
       </div>
+      <svg class="hero-design" width="752" height="718" fill="none" viewBox="0 0 752 718">
+        <rect class="square-anim" width="188" height="180" x="376" fill="#FFD7E4" rx="34" />
+        <rect class="square-anim" width="188" height="180" x="376" y="358" fill="#FFD7E4" rx="34" />
+        <rect
+          class="square-anim"
+          width="188"
+          height="180"
+          x="564"
+          y="178"
+          fill="#FFD7E4"
+          opacity=".7"
+          rx="34"
+        />
+        <rect class="square-anim" width="188" height="180" x="188" y="178" fill="#FBFAFF" rx="34" />
+        <rect class="square-anim" width="188" height="180" x="188" y="538" fill="#FBFAFF" rx="34" />
+        <rect class="square-anim" width="188" height="180" y="358" fill="#FBFAFF" opacity=".5" rx="34" />
+        <path
+          class="square-anim"
+          fill="#D177E4"
+          d="M564 268c-40 17-94 15-94 105 0-79-21-97-94-105 70-9 94-5 94-90 17 63 0 101 94 90z"
+          opacity=".32"
+        />
+        <path
+          class="square-anim"
+          fill="#D177E4"
+          d="M553 268c-40 17-94 15-94 105 0-79-21-97-94-105 70-9 94-5 94-90 17 63 0 101 94 90z"
+        />
+        <path
+          class="square-anim"
+          fill="#04000A"
+          d="M376 448c-89-18-52 48-94 90 5-59-43-72-94-90 75 19 94-122 94-90 0 99 41 53 94 90z"
+          opacity=".32"
+        />
+        <path
+          class="square-anim"
+          fill="#04000A"
+          d="M390 447.746c-89-18-52 48-94 90 5-59-43-72-94-90 75 19 94-122 94-90 0 99 41 53 94 90z"
+        />
+      </svg>
+    </div>
 
-      <div class="interlude animate__animated animate__fadeIn animate__slow">
-        <div class="telephones">
-          COMUNICATE CON ALGUNO DE NUESTROS ASESORES AL: #1111111-11111 / 1111333333333
-        </div>
+    <section class="featured" id="work" >
+      <div class="left">
+        <div class="inner transition2">
+          <p class="subtitle">Web Design & Development</p>
+          <a href="https://github.com/CanicheAnsioso/Caniya-Web-Mobile" class="featured-title"
+            >Cani-Ya Webpage</a
+          >
 
-        <div class="text-social">
-          SEGUINOS EN <img class="socials-svg" src="Imagenes/Redes.svg" alt="RedesSociales" />
-        </div>
-      </div>
-
-      <div class="container-fluid animate__animated animate__fadeIn animate__slow">
-        <div class="row row-houses">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa1.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa6.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa7.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row row-houses">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa3.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa9.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa2.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
+          <p class="featured-desc">
+            Cani-Ya es una app creada y dirigida para el empleo argentino conocido como diareros y canillitas,
+            personas que venden y distribuyen los diarios, periódicos y revistas nacionales e internacionales.
+            Su idea detrás es facilitar el manejo de lo que corresponde un kiosko (local) de diarios a través
+            de una plataforma de fácil manejo.<br />
+            <br />Mi trabajo aquí fue darle vida a la página web del proyecto, tanto en diseño como su
+            desarrollo en HTML, CSS y JS, con la información necesaria para su descarga y composición; ya que
+            corresponde a un rango muy variado en edad y género.
+          </p>
         </div>
       </div>
-      <div class="interlude animate__animated animate__fadeIn animate__slow">
-        <div class="telephones">
-          COMUNICATE CON ALGUNO DE NUESTROS ASESORES AL: #1111111-11111 / 1111333333333
-        </div>
+      <img class="right transition2" src="Imagenes/Caniya-web.png" alt="caniya" />
+    </section>
+    <section class="skills" id="skills" >
+      <div class="skills-container">
+        <ul>
+          <li class="transition2">
+            <div class="icon-container one">
+              <a href="https://www.figma.com/files/project/31540901/My-Projects?fuid=979401933894271511"
+                ><img src="Imagenes/click.svg" alt="click" />
+              </a>
+            </div>
+            <p class="skill-title">UI-UX Design</p>
+            <p class="featured-desc skill-desc">
+              Aquí podrás ver algunos de mis proyectos y diseños, a través de la plataforma Figma.<br /><br /><br />
+              ¡Clickeá sobre la ilustración!
+            </p>
+          </li>
+          <li class="transition2">
+            <div class="icon-container two">
+              <a href="https://drive.google.com/drive/folders/1PK3TAlQC6v3OSbp741xzs7Rv9IPWBtDr?usp=sharing"
+                ><img src="Imagenes/camara.svg" alt="click"
+              /></a>
+            </div>
+            <p class="skill-title">Fotografía</p>
+            <p class="featured-desc skill-desc">
+              Aquí podrás ver mi galería fotográfica, mi conocimiento en colorimetría. Modelo: Nikon D-3000
+              (18-55 /55-200)<br /><br />
+              ¡Clickeá sobre la ilustración!
+            </p>
+          </li>
+          <li class="transition2">
+            <div class="icon-container three">
+              <a href="https://github.com/CanicheAnsioso?tab=repositories"
+                ><img src="Imagenes/pc.svg" alt="click"
+              /></a>
+            </div>
+            <p class="skill-title">FrontEnd Development</p>
+            <p class="featured-desc skill-desc">
+              Aquí podrás ver de forma detallada y ordenada los proyectos presentados, en código y vida.<br /><br /><br />
+              ¡Clickeá sobre la ilustración!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-        <div class="text-social">
-          SEGUINOS EN <img class="socials-svg" src="Imagenes/Redes.svg" alt="RedesSociales2" />
+    <section class="portfolio" >
+      <div class="portfolio-container transition3">
+        <div class="portfolio-left">
+          <div class="inner">
+            <p class="subtitle">Web Design & Development</p>
+            <p class="featured-title">
+              <a href="https://github.com/CanicheAnsioso/InmobiliariaProyecto">Inmobiliaria Proyecto</a>
+            </p>
+            <p class="featured-desc">
+              Inmobiliaria es un proyecto de asiduo diseño y desarrollo a fondo; desde el mock-up hasta su
+              armado en HTML, CSS y JS. Armado desde un lugar de práctica y aprendizaje, este es un proyecto
+              con ambición y cariño por el UI-UX.<br /><br />
+
+              Es totalmente responsive para distintos dispositivos aunque centralmente detallado para la web.
+              Cuenta con filtros detallados de búsqueda, paso a un contacto y atención personalizada por parte
+              de la casa inmobiliaria, ofertas y propiedades destacadas, ilustraciones y animaciones. La
+              paleta de colores fue elegida desde un pensamiento suave pero lujoso, llamativo pero
+              soficticado, de bienestar y tranquilidad, de riqueza y sensación hogareña.
+            </p>
+          </div>
+        </div>
+        <img src="Imagenes/inmobiliaria.png" alt="Inmobiliaria" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">Leila E. Gonzalez</div>
+        <div class="socials-footer">
+          <ul class="contact">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Consultas</a></li>
+          </ul>
+          <ul class="socials">
+            <li>
+              <a href="#"><img src="Imagenes/github.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="Imagenes/instagram.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="Imagenes/whatsapp.svg" /></a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="container-fluid animate__animated animate__fadeIn animate__slow">
-        <div class="row row-houses">
-          <div class="col-12 col-lg-6">
-            <div class="slide-fwd-center">
-              <div class="image-container">
-                <img class="big-house" src="Imagenes/Casa8.jpg" alt="Casa" />
-                <div class="overlay-layer">
-					<span class="text-overlay"
-					  >Casa 5 ambientes
-					  <div class="subtext-layer">(venta o alquiler)</div>
-					  <br />$1.111.111</span
-					>
-					<button class="overlay-button">
-					  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-					</button>
-				  </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6">
-            <div class="image-container">
-              <img class="big-house" src="Imagenes/Casa4.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row row-houses">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa11.jpeg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa10.jpeg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4">
-            <div class="image-container">
-              <img class="house" src="Imagenes/Casa5.jpg" alt="Casa" />
-              <div class="overlay-layer">
-                <span class="text-overlay"
-                  >Casa 5 ambientes
-                  <div class="subtext-layer">(venta o alquiler)</div>
-                  <br />$1.111.111</span
-                >
-                <button class="overlay-button">
-                  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer class="container-fluid m-0 animate__animated animate__fadeIn animate__slow">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="logo-inmb">INMOBILIARIA</div>
-          <div class="contact-data">
-            CONTACTO: #1111111-11111 / 1111333333333<br />Av. Blablabla 754<br />info@inmobiliaria.com.ar
-            <br />
-          </div>
-          <div class="disclaimer">
-            Todas las medidas enunciadas son meramente orientativas, las medidas exactas serán las que se
-            expresen en el respectivo título de propiedad de cada inmueble.<br />Todas las fotos, imagenes y
-            videos son meramente ilustrativos y no contractuales. Los precios enunciados son meramente
-            orientativos y no contractuales..
-          </div>
-        </div>
-        <div class="col-12 col-md-3">
-          <div class="middle-selector">
-            ¿Qué estás buscando?
-            <ul class="middle-links">
-              <li><a href="#">Terrenos</a></li>
-              <li><a href="#">Departamentos</a></li>
-              <li><a href="#">Casas</a></li>
-              <li><a href="#">Oficinas</a></li>
-              <li><a href="#">Locales</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-3">
-          <div class="follow-text">
-            Seguinos en <img class="socials-net" src="Imagenes/Redes2.svg" alt="RedesSociales" />
-          </div>
-        </div>
-      </div>
-      <hr class="div-line" />
-      <div class="copyright">INMOBILIARIA PROPIEDADES 2021</div>
+      <svg class="footer-design" width="300" height="370" fill="none" viewBox="0 0 480 577">
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x=".72"
+          y="289.343"
+          fill="#FFD7E4"
+          rx="34"
+          transform="rotate(-90.143 .72 289.343)"
+        />
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x="266.3"
+          y="288.679"
+          fill="#FFD7E4"
+          rx="34"
+          transform="rotate(-90.143 266.3 288.679)"
+        />
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x="132.408"
+          y="145.007"
+          fill="#FFD7E4"
+          opacity=".7"
+          rx="34"
+          transform="rotate(-90.143 132.408 145.007)"
+        />
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x="133.128"
+          y="433.019"
+          fill="#FBFAFF"
+          rx="34"
+          transform="rotate(-90.143 133.128 433.019)"
+        />
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x="400.192"
+          y="432.351"
+          fill="#FBFAFF"
+          rx="34"
+          transform="rotate(-90.143 400.192 432.351)"
+        />
+        <rect
+          class="square-anim"
+          width="144.006"
+          height="133.532"
+          x="267.02"
+          y="576.691"
+          fill="#FBFAFF"
+          opacity=".5"
+          rx="34"
+          transform="rotate(-90.143 267.02 576.691)"
+        />
+        <ellipse
+          class="square-anim"
+          cx="199.354"
+          cy="216.843"
+          fill="#D177E4"
+          rx="72.003"
+          ry="66.766"
+          transform="rotate(-90.143 199.354 216.843)"
+        />
+        <ellipse
+          class="square-anim"
+          cx="333.246"
+          cy="360.515"
+          fill="#04000A"
+          rx="72.003"
+          ry="66.766"
+          transform="rotate(-90.143 333.246 360.515)"
+        />
+      </svg>
     </footer>
 
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+      integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"
+      integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      var tl = gsap.timeline();
+
+      tl.from(".content", {
+        y: "-30%",
+        opacity: 0,
+        duration: 2,
+        ease: Power4.easeOut,
+      });
+      tl.from(
+        ".stagger1",
+        {
+          opacity: 0,
+          y: -50,
+          stagger: 0.3,
+          ease: Power4.easeOut,
+          duration: 2,
+        },
+        "-=1.5"
+      );
+      tl.from(
+        ".hero-design",
+        {
+          opacity: 0,
+          y: 50,
+          ease: Power4.easeOut,
+          duration: 1,
+        },
+        "-=2"
+      );
+
+      gsap.from(".square-anim", { stagger: 0.2, scale: 0.1, duration: 1, ease: Back.easeOut.config(1.7) });
+
+      gsap.from(".transition2", {
+        scrollTrigger: {
+          trigger: ".transition2",
+          start: "top bottom",
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1.2,
+        stagger: 0.3,
+      });
+
+      gsap.from(".transition3", {
+        scrollTrigger: {
+          trigger: ".transition3",
+          start: "top center",
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1.2,
+        stagger: 0.6,
+      });
+    </script>
+
   </body>
 </html>

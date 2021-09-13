@@ -1,0 +1,8 @@
+rosa pálido: #FF96ED
+lilac rosado: #D789E8
+lila: #D6A4FF
+lila oscuro: #A389E8
+indigo: #9796FF
+
+negro: #04000A
+blanco: #FBFAFF
