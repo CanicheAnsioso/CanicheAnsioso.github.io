@@ -111,7 +111,7 @@ section {
 }
 
 .featured-title {
-  color: #04000a;
+  color: #04000a !important;
   font-weight: bold;
   font-size: 1.5em;
   margin-top: -0.4em;
@@ -120,7 +120,7 @@ section {
 
 .featured-desc {
   color: #463067;
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
   font-size: 0.85em;
   line-height: 1.8em;
   font-weight: 500;
@@ -154,12 +154,8 @@ section {
 }
 
 .skill-title {
-  font-weight: bold;
+  font-weight: bold !important;
   color: #04000a;
-}
-
-.featured-desc {
-  margin-bottom: 2em;
 }
 
 .portfolio-container a img {
@@ -269,7 +265,7 @@ footer {
 
   .nav-container {
     display: grid;
-    grid-template-columns: 66% auto;
+    grid-template-columns: 40% auto;
     background: unset;
   }
   .nav-container header {
@@ -330,7 +326,8 @@ footer {
 
   .portfolio img {
     float: right;
-    max-width: 500px;
+    max-width: 1200px;
+    max-height: 1600px;
   }
 }
 @media only screen and (min-width: 1250px) {
@@ -364,6 +361,7 @@ footer {
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
+    width: 118.7%;
   }
 
   .social-header {

@@ -120,7 +120,7 @@ section {
 
 .featured-desc {
   color: #463067;
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
   font-size: 0.85em;
   line-height: 1.8em;
   font-weight: 500;
@@ -157,9 +157,6 @@ section {
   color: #04000a;
 }
 
-.featured-desc {
-  margin-bottom: 2em;
-}
 
 .portfolio-container a img {
   border-radius: 1em;
@@ -260,7 +257,7 @@ footer {
   }
   .nav-container {
     display: grid;
-    grid-template-columns: 66% auto;
+    grid-template-columns: 40% auto;
     background: unset;
     header {
       background: #e37fb9;
@@ -316,9 +313,11 @@ footer {
 
   .portfolio img {
     float: right;
-    max-width: 500px;
-  }
+    max-width: 1200px;
+    max-height: 1600px;
 }
+}
+
 @media only screen and (min-width: 1250px) {
   header {
     padding: 2em 2em 2em 10em;
@@ -346,6 +345,7 @@ footer {
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
+    width: 118.7%;
   }
   .social-header {
     padding: 2em 20em 2em 0;
@@ -359,10 +359,7 @@ footer {
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
-  .img-example{
-    height: 70%;
-    width: 100%;
-  }
+
   footer {
    margin-top: 18em;
    height: 160px;
