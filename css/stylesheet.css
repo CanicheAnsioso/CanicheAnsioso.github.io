@@ -274,6 +274,7 @@ footer {
 
   header {
     padding: 2em 2em 2em 4em;
+    width: 142%;
   }
 
   .social-header {
@@ -333,6 +334,7 @@ footer {
 @media only screen and (min-width: 1250px) {
   header {
     padding: 2em 2em 2em 10em;
+    width: 130%;
   }
 
   .social-header {
