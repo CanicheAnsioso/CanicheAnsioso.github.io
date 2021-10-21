@@ -48,6 +48,7 @@ header ul a {
   display: block;
   padding: 0 1em;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .social-header,
@@ -209,30 +210,6 @@ footer {
 .socials img {
   padding-right: 1em;
   padding-left: 1em;
-}
-
-.circle {
-  animation: circleAnim 0.8s infinite alternate-reverse;
-}
-
-@-webkit-keyframes circleAnim {
-  from {
-    transform: translate(165px, 460px);
-    z-index: 5;
-  }
-  to {
-    transform: translate(165px, 500px);
-  }
-}
-
-@keyframes circleAnim {
-  from {
-    transform: translate(165px, 460px);
-    z-index: 5;
-  }
-  to {
-    transform: translate(165px, 500px);
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -435,5 +412,27 @@ footer {
     height: 30px;
   }
 
+  .circle {
+    animation: circleAnim 0.8s infinite alternate-reverse;
+  }
 
+  @-webkit-keyframes circleAnim {
+    from {
+      transform: translate(165px, 460px);
+      z-index: 5;
+    }
+    to {
+      transform: translate(165px, 500px);
+    }
+  }
+
+  @keyframes circleAnim {
+    from {
+      transform: translate(165px, 460px);
+      z-index: 5;
+    }
+    to {
+      transform: translate(165px, 500px);
+    }
+  }
 }/*# sourceMappingURL=stylesheet.css.map */
