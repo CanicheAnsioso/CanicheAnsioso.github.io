@@ -48,7 +48,6 @@ header ul a {
   display: block;
   padding: 0 1em;
   font-size: 12px;
-  cursor: pointer;
 }
 
 .social-header,
@@ -265,8 +264,8 @@ footer {
   }
 
   .nav-container {
-    display: grid;
-    grid-template-columns: 40% auto;
+    display: flex;
+    flex-direction: row;
     background: unset;
   }
   .nav-container header {
@@ -279,20 +278,17 @@ footer {
   }
 
   .social-header {
-    padding: 2em 4em 2em 0;
+    display: block;
+    padding: 2em 2em 2em 20.3em;
   }
 
   section {
     padding: 4em;
   }
 
-  .social-header {
-    display: block;
-  }
   .social-header ul {
     display: flex;
     justify-content: space-between;
-    width: 7em;
     float: right;
   }
   .social-header ul img {
@@ -339,7 +335,7 @@ footer {
   }
 
   .social-header {
-    padding: 2em 10em 2em 0;
+    padding: 2em 10em 2em 15.41em;
   }
 
   section {
@@ -364,11 +360,11 @@ footer {
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
-    width: 118.7%;
+    width: 90%;
   }
 
   .social-header {
-    padding: 2em 20em 2em 0;
+    padding: 2em 29em 2em 9.5em;
   }
 
   section {
@@ -411,28 +407,27 @@ footer {
     width: 30px;
     height: 30px;
   }
+}
+.circle {
+  animation: circleAnim 0.8s infinite alternate-reverse;
+}
 
-  .circle {
-    animation: circleAnim 0.8s infinite alternate-reverse;
+@-webkit-keyframes circleAnim {
+  from {
+    transform: translate(165px, 460px);
+    z-index: 5;
   }
-
-  @-webkit-keyframes circleAnim {
-    from {
-      transform: translate(165px, 460px);
-      z-index: 5;
-    }
-    to {
-      transform: translate(165px, 500px);
-    }
+  to {
+    transform: translate(165px, 500px);
   }
+}
 
-  @keyframes circleAnim {
-    from {
-      transform: translate(165px, 460px);
-      z-index: 5;
-    }
-    to {
-      transform: translate(165px, 500px);
-    }
+@keyframes circleAnim {
+  from {
+    transform: translate(165px, 460px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(165px, 500px);
   }
 }/*# sourceMappingURL=stylesheet.css.map */

@@ -47,7 +47,6 @@ header {
       display: block;
       padding: 0 1em;
       font-size: 12px;
-      cursor:pointer;
     }
   }
 }
@@ -257,30 +256,32 @@ footer {
     height: 90vh;
   }
   .nav-container {
-    display: grid;
-    grid-template-columns: 40% auto;
+    display: flex;
+    flex-direction: row;
+    
     background: unset;
     header {
-      background: #e37fb9;
+    background: #e37fb9;
     }
   }
   header {
+    
     padding: 2em 2em 2em 4em;
     width: 142%;
   }
   .social-header {
-    padding: 2em 4em 2em 0;
+    display: block;
+    padding: 2em 2em 2em 20.3em;
   }
   section {
     padding: 4em;
   }
 
   .social-header {
-    display: block;
     ul {
       display: flex;
       justify-content: space-between;
-      width: 7em;
+     
       float: right;
       img {
         width: 20px;
@@ -326,7 +327,7 @@ footer {
     width: 130%;
   }
   .social-header {
-    padding: 2em 10em 2em 0;
+    padding: 2em 10em 2em 15.41em;
   }
   section {
     padding: 10em 10em 4em 10em;
@@ -348,10 +349,10 @@ footer {
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
-    width: 118.7%;
+    width: 90%;
   }
   .social-header {
-    padding: 2em 20em 2em 0;
+    padding: 2em 29em 2em 9.5em;
   }
   section {
     padding: 10em 20em 4em 20em;
@@ -387,6 +388,7 @@ footer {
     width: 30px;
     height: 30px;
   }
+}
 
   .circle{
     animation: circleAnim .8s infinite alternate-reverse; 
@@ -401,4 +403,4 @@ footer {
        
      }
    }  
-}
+
